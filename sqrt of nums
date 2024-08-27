@@ -1,0 +1,8 @@
+import math
+a,b=map(int,input().split())
+l=[]
+for i in range(a,b+1):
+    p=math.sqrt(i)
+    l.append(p)
+o=sum(l)
+print(format(o,".2f"))
